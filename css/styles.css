@@ -53,6 +53,7 @@ img {
 }
 .header-menu-list {
     display: flex;
+    margin-right: 40px;
 }
 .header-menu-last {
     margin-right: 0;

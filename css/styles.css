@@ -336,3 +336,46 @@ button:focus {
     display: flex;
     gap: 40px
 }
+
+/**
+  |============================
+  | Filter
+  |============================
+*/
+.filter {
+    padding: 96px 0 120px;
+
+}
+.filter-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 72px
+}
+.filter-btn {
+    padding: 12px 24px 12px;
+    border: 1px solid #e7e9fc;
+    border-radius: 4px;
+}
+.filter-btn:hover,
+.filter-btn:focus {
+    border: 1px solid transparen;
+}
+.img-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+
+}
+.filter-client {
+    width: calc((100% - 48px) / 3);
+}
+.gallery-info {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
+.gallery-title {
+    margin-bottom: 8px;
+}

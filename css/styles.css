@@ -154,6 +154,9 @@ button:focus {
 }
 
 /* =======ABOUT======== */
+.about {
+    padding: 120px 0 120px;
+}
 .about-list {
     display: flex;
     gap: 24px;

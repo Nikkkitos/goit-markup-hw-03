@@ -121,6 +121,8 @@ HOVER
 /* =========Hero========== */
 .hero {
     background-color: var(--color-grey);
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 .hero-title {
     font-size: 56px;
@@ -128,8 +130,7 @@ HOVER
     text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
-    width: 496px;
-    
+    max-width: 496px;
 }
 .hero-btn {
     background-color: #4D5AE5;
@@ -140,6 +141,12 @@ HOVER
     letter-spacing: 0.04em;
     color: #ffffff;
     cursor: pointer;
+
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
 }
 button:hover,
 button:focus {

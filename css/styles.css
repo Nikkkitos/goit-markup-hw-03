@@ -152,13 +152,23 @@ button:hover,
 button:focus {
     background-color: var(--color-ocean);
 }
+
 /* =======ABOUT======== */
+.about-list {
+    display: flex;
+    gap: 24px;
+}
+.about-item{
+    width: calc((100% - 72px) / 4);
+}
 .about-text {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--color-navy-blue-modal);
+
+    margin-bottom: 8px;
 }
 .par {
     font-size: 16px;

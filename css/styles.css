@@ -337,7 +337,8 @@ button:focus {
     gap: 40px;
 }
 .portfolio-menu-item {
-    padding: 24px 0 24px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 .portfolio-header-address {
     display: flex;
@@ -373,6 +374,9 @@ button:focus {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
+}
+.img-list {
+    padding-left: 0;
 }
 .filter-client {
     width: calc((100% - 48px) / 3);

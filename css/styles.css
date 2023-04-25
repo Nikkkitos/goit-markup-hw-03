@@ -336,14 +336,15 @@ button:focus {
     display: flex;
     gap: 40px;
 }
+.portfolio-menu-list {
+    display: flex;
+    gap: 40px;
+}
 .portfolio-menu-item {
     padding-top: 24px;
     padding-bottom: 24px;
 }
-.portfolio-header-address {
-    display: flex;
-    gap: 40px
-}
+
 
 /**
   |============================

@@ -34,6 +34,7 @@ img {
 }
 .container {
     width: 1158px;
+    margin: 0 auto;
 }
 
 /* ======HEADER====== */
@@ -52,7 +53,6 @@ img {
 }
 .header-menu-list {
     display: flex;
-    margin-right: 40px;
 }
 .header-menu-last {
     margin-right: 0;
@@ -94,6 +94,8 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--color-navy-blue-modal);
+
+    margin-right: 40px;
 }
 
 /* ADDRESS */

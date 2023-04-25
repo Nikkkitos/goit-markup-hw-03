@@ -20,11 +20,22 @@ body {
 
 }
 
+img {
+    display: block;
+}
+
 .link {
     text-decoration: none;
 }
 .list {
     list-style: none;
+}
+
+.container {
+    width: 1158px;
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 /* ======HEADER====== */
@@ -91,6 +102,8 @@ HOVER
     text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
+    width: 496px;
+    
 }
 .hero-btn {
     background-color: #4D5AE5;

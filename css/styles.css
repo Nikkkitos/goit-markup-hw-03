@@ -26,18 +26,39 @@ img {
 
 .link {
     text-decoration: none;
+
+    margin-right: 76px;
 }
 .list {
     list-style: none;
 }
-
+.container {
+    width: 1158px;
+}
 
 /* ======HEADER====== */
+.header {
+    border-bottom: 1px solid #e7e9fc;
+}
+.navigation {
+    display: flex;
+    align-items: center;
+}
 .header-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 0 15px;
+}
+.header-menu-list {
+    display: flex;
+    margin-right: 40px;
+}
+.header-menu-last {
+    margin-right: 0;
+}
+.header-link {
+    padding: 24px 0 24px;
 }
 .link-logo{
     font-family: 'Raleway', sans-serif;
@@ -85,6 +106,7 @@ img {
     letter-spacing: 0.02em;
     color: var(--color-slate);
 }
+
 /* 
 HOVER
 */

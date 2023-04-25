@@ -36,6 +36,12 @@ img {
     width: 1158px;
     margin: 0 auto;
 }
+.portfolio-conteiner {
+    display: flex;
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
 
 /* ======HEADER====== */
 .header {
@@ -275,8 +281,6 @@ button:focus {
     color: var(--color-cloud);
 }
 
-/* +++++++++Portfolio+++++++++++ */
-
 /* =======FILTER======= */
 .filter-btn {
     font-family: 'Roboto', sans-serif;
@@ -318,4 +322,17 @@ button:focus {
 }
 .footer-text-portfolio {
     color: var(--color-cloud);
+}
+
+/* +++++++++Portfolio+++++++++++ */
+.portfolio-list {
+    display: flex;
+    gap: 40px;
+}
+.portfolio-menu-item {
+    padding: 24px 0 24px;
+}
+.portfolio-header-address {
+    display: flex;
+    gap: 40px
 }

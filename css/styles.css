@@ -206,6 +206,8 @@ button:focus {
 .portfolio-list {
     display: flex;
     gap: 24px;
+
+    padding-left: 0;
 }
 .portfolio-item {
     width: calc((100% - 3 * 16px) / 3);
@@ -228,6 +230,8 @@ button:focus {
 }
 .team-list {
     display: flex;
+
+    padding-left: 0;
 }
 .team-item {
     background-color: #FFFFFF;

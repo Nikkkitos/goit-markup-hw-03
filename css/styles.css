@@ -167,6 +167,8 @@ button:focus {
 .about-list {
     display: flex;
     gap: 24px;
+
+    padding-left: 0;
 }
 .about-item{
     width: calc((100% - 72px) / 4);

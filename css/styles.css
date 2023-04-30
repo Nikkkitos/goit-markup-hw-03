@@ -332,7 +332,11 @@ button:focus {
     color: var(--color-cloud);
 }
 
-/* +++++++++Portfolio+++++++++++ */
+/**
+  |============================
+  |  Portfolio
+  |============================
+  */
 .portfolio-list {
     display: flex;
     gap: 40px;

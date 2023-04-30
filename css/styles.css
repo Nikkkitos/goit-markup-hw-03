@@ -372,7 +372,7 @@ button:focus {
 }
 .filter-btn:hover,
 .filter-btn:focus {
-    border: 1px solid transparen;
+    border: 1px solid transparent;
 }
 .img-list {
     display: flex;

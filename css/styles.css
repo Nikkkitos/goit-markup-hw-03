@@ -283,6 +283,7 @@ button:focus {
 }
 .footer-par {
     max-width: 264px;
+    color: var(--color-cloud);
 }
 .footer-span {
     color: var(--color-cloud);
@@ -335,14 +336,13 @@ button:focus {
 .portfolio-list {
     display: flex;
     gap: 40px;
+    padding: 24px 0;
 }
 .portfolio-menu-list {
     display: flex;
     gap: 40px;
 }
-.portfolio-menu-item {
-    padding: 24px 0;
-}
+
 
 
 /**

@@ -337,7 +337,7 @@ button:focus {
   |  Portfolio
   |============================
   */
-.portfolio-list {
+.portfolio-nav-list {
     display: flex;
     gap: 40px;
 }

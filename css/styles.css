@@ -34,6 +34,7 @@ img {
 .container {
     width: 1158px;
     margin: 0 auto;
+    padding: 0 15px;
 }
 .portfolio-conteiner {
     display: flex;
@@ -265,7 +266,6 @@ button:focus {
 /* ========FOOTER======== */
 .footer {
     background-color: var(--color-grey);
-
     padding: 100px 0;
 }
 .footer-link {
@@ -287,7 +287,9 @@ button:focus {
 .footer-span {
     color: var(--color-cloud);
 }
-
+.container-footer {
+    margin-left: 152px;
+}
 /* =======FILTER======= */
 .filter-btn {
     font-family: 'Roboto', sans-serif;

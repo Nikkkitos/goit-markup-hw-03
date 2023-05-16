@@ -108,10 +108,6 @@ img {
     color: var(--color-slate);
     font-weight: 400;
 }
-
-/* 
-HOVER
-*/
 .address-link:hover,
 .address-link:focus {
     color: var(--color-ocean);

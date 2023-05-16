@@ -36,12 +36,6 @@ img {
     margin: 0 auto;
     padding: 0 15px;
 }
-.portfolio-conteiner {
-    display: flex;
-    width: 1158px;
-    margin: 0 auto;
-    padding: 0 15px;
-}
 
 /* ======HEADER====== */
 .header {
@@ -53,18 +47,11 @@ img {
 }
 .header-container {
     display: flex;
-    justify-content: space-around;
     align-items: center;
-    width: 1440px;
-    margin: 0;
-    padding: 0;
 }
 .header-menu-list {
     display: flex;
     gap: 40px;
-    padding-left: 0px;
-}
-.header-address {
     padding-left: 0px;
 }
 .header-link {
@@ -106,13 +93,13 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--color-navy-blue-modal);
-
-    margin-right: 40px;
 }
 
 /* ADDRESS */
 .header-address {
     font-style: normal;
+    margin-left: auto;
+    padding-left: 0px;
 }
 .address-link {
     font-size: 16px;

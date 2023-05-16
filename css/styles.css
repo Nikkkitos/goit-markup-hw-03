@@ -17,7 +17,6 @@ body {
     font-family: 'Roboto', sans-serif;
     color: var(--color-slate);
     background-color: var(--header-white);
-
 }
 
 img {
@@ -67,7 +66,6 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--color-iris);
-
     margin-right: 76px;
 }
 .header-logo-text {
@@ -262,7 +260,6 @@ button:focus {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--color-iris); 
-
     display: inline-block;
     margin-bottom: 16px;
 }

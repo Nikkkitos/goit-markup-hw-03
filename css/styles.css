@@ -167,7 +167,7 @@ button:focus {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--color-navy-blue-modal);
-
+    margin-top: 0;
     margin-bottom: 8px;
 }
 .par {
@@ -194,7 +194,7 @@ button:focus {
 .portfolio-list {
     display: flex;
     gap: 24px;
-
+    margin: 0;
     padding-left: 0;
 }
 .portfolio-item {
@@ -220,6 +220,7 @@ button:focus {
     padding-left: 0;
     display: flex;
     gap: 24px;
+    margin: 0;
 }
 .team-item {
     background-color: #FFFFFF;
@@ -235,7 +236,7 @@ button:focus {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--color-grey);
-
+    margin-top: 0;
     text-align: center;
     margin-bottom: 8px;
 }
@@ -244,7 +245,7 @@ button:focus {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--color-slate);
-    
+    margin: 0;
     text-align: center;
 }
 /* ========FOOTER======== */
@@ -266,6 +267,7 @@ button:focus {
 .footer-par {
     max-width: 264px;
     color: var(--color-cloud);
+    margin: 0;
 }
 .footer-span {
     color: var(--color-cloud);
@@ -295,12 +297,6 @@ button:focus {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color:  var(--color-navy-blue-modal);
-}
-.gallery-par {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--color-slate);
 }
 .filter-client {
     font-weight: 500;
@@ -347,7 +343,8 @@ button:focus {
     display: flex;
     justify-content: center;
     gap: 24px;
-    margin-bottom: 72px
+    margin-bottom: 72px;
+    margin-top: 0;
 }
 .filter-btn {
     padding: 12px 24px 12px;
@@ -364,6 +361,7 @@ button:focus {
     column-gap: 24px;
     row-gap: 48px;
     padding-left: 0;
+    margin: 0;
 }
 .filter-client {
     width: calc((100% - 48px) / 3);
@@ -375,4 +373,13 @@ button:focus {
 }
 .gallery-title {
     margin-bottom: 8px;
+    margin-top: 0;
+}
+.gallery-par {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--color-slate);
+    margin-top: 8px;
+    margin-bottom: 0;
 }
